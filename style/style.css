@@ -2,26 +2,59 @@
 {
   margin:0;
 }
+body{
+  background-color: #81BEF7;
+}
 /******************* Style index.html **************/
 /** start rules css Header **/
-header,nav
+header 
 {
-  border: solid 3px ;
-  border-radius: 20px;
-  width: 100%;
-  height: 100px;
+	background-color: 
+}
+header aside,  header section,header nav a, header figure img  {
+	display:inline-block;
 }
 
+header section {
+	vertical-align: middle;
+	vertical-align: top;
+	margin: 1em 0  0 30%;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+  border-radius: 20px;
 
 
 
+}
 
+header
+{
+	/*background-color:#848484;*/
+	border-radius:10px;
+	height: 200px;
+	background-color: white;
+
+  }
 /** Ende of rules css herader **/
 /************************************************/
 /** Satart Rules nav bare **/
-
-
-
+nav a {
+	vertical-align: top;
+	text-decoration: none;
+	color: black;
+	border-left:solid 3px #0040FF;
+	border-right: solid 3px #0040FF;
+	margin: 0 0  0 10% ;
+	padding-left:2em;
+	padding-right: 2em;
+	border-radius:20px;
+	}
+	 nav {
+		margin-left: 3em;
+		border-top: solid 3px #0040FF;
+		border-radius: 30px ;
+		padding-left: 2em;
+	}
 
 
 
@@ -29,15 +62,50 @@ header,nav
 
 
 
-/************ rules of coeur de pages *****/
+/************ rules of coeur de pages index.html *****/
+
+
+article .coeur 
+{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/* ende of rules coeur de pages */
+
+
+
+
+/*******************Start rules css Go.html *****/
+
+
+/***** Start rules coeur de pages go.html ****/
+
 section
 {
   margin-top:5em;
   text-align: center;
-  border:3px solid red ;
   border-radius: 20px;
+  background-color: #81BEF7;
+  font-family: 'Ubuntu', sans-serif;
 }
 section img
 {
   margin-top: 1em;
 }
+
+section h2 p {
+  margin-top: 2em;
+}
+
+#régl
+{
+  border-radius: 50px;
+}
+/* end of  rules go.html ********/
